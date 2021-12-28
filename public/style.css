@@ -1,0 +1,950 @@
+
+  
+*{
+    
+    list-style: none;
+  }
+
+.navbar{
+    background-color: #000 !important;
+    padding: 4px 0px !important;
+    margin: 0px !important;
+    
+}
+.logo{
+    width: 230px !important;
+    padding: 0px;
+}
+.nav-item{
+    color: #fff !important;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    color:  rgb(160, 160, 160) !important;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    position: relative;
+    padding: 0px 0px;
+    margin:3px 0px ;
+    
+    
+   
+}
+
+.nav-link::after{
+    content: "";
+    position: absolute;
+    background-color: #B27B2E ;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    margin:5px 0px ;
+    border-radius: 2px;
+}
+.nav-link:visited .nav-link::after{
+    width: 100%;
+    border-radius: 2px;
+    transition: 0.3s forwards;
+}
+.nav-link:hover:after{
+    width: 100%;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.fab{
+    font-size: 23px;
+    padding: 0px 5px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #B27B2E;
+}
+.fa-twitter:hover{
+    color: #1DA1F2;
+    transition: all 0.4s;
+}
+
+.fa-facebook-f:hover{
+    color: #416abb; 
+    transition: all 0.4s;
+}
+
+.fa-linkedin-in:hover{
+
+    color :#2867B2;
+    
+    transition: all 0.4s;
+
+}
+.fa-youtube:hover{
+    color: #FF0000;
+    transition: all 0.4s;
+}
+.fa-whatsapp:hover{
+    color: #4AC959;
+    transition: all 0.4s;
+}
+section{
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 95vh;
+      width: 100%;
+      overflow: hidden;
+      
+    }
+
+.background-img{
+   
+    position: absolute;
+    height: 95vh;
+    width: 100% !important;
+    z-index: -1;
+    object-fit: cover;
+    animation: zoom-in-zoom-out 12s infinite;
+    background: url(img/image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+
+   
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  header{
+   
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 100%;
+      height: 90%;
+     padding-left: 70px;
+      
+  }
+.headings{
+   
+   
+    max-width: 100%;
+  
+   
+
+}
+
+ .headings h4{
+     
+     color: #ffff;
+     font-size: 30px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+     
+
+ }
+ .headings h1{
+     color: black; 
+     font-size: 65px;
+     width: 600px;
+     font-weight: 650;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     padding: 4px 0px;
+     
+}
+     
+
+ .headings p{
+     font-size: 15px;
+     color: #fff    ;
+     width: 600px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .headings button{
+     width: 160px;
+     padding: 15px 13px;
+     font-size: 21px;
+     font-weight: 700;
+     border: none;
+     background-color: #B27B2E  ;
+     color: #000;
+     text-transform: uppercase;
+     transition: all 0.3s linear;
+     border: 4px solid  #000;
+     border-radius: 30px 0px 30px 0px;
+ }
+ .headings button:hover{
+     transform: translateY(-7px);
+     color: #B27B2E;
+     background-color: #000  ;
+     transition: all 0.3s linear !important;
+     border: 4px solid  #000;
+
+ }
+ .about_sec{
+    height: 100%;
+     width: 100% !important;
+     margin: 60px 0px !important;
+ }
+
+
+.about_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.about_content h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #808080;
+    font-size: 33px;
+}
+.about_content h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+.about_content p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 32px;
+    color: #808080;
+    text-align: justify;
+    font-size: 16px;
+    
+}
+
+.about_button{
+    width: 150px !important;
+    height: 60px;
+    background-color: #4c5e6d;
+    color: #fff;
+    font-weight: 600 !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    border-radius: 0px !important;
+    transition: all 0.2s linear;
+   
+}
+.about_button:hover{
+    background-color: #3c4a55;
+}
+.about_button:focus{
+    border: none !important;
+}
+
+.checks{
+ display: flex !important;
+ align-items: flex-start !important;
+ flex-direction: column;
+ margin-top: 70px;
+ line-height: none !important;
+}
+.check_mark{
+    display: flex;
+    line-height: none !important;
+   
+}
+.check_mark p{
+    color: #928f8f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: start;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.fa-check{
+    font-size: 20px;
+    padding: 0px 10px;
+    color: rgb(80, 76, 76);
+}
+
+
+.experience{
+   text-align: center;
+}
+.experience h3{
+    color: #40515E;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.experience h1{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 790;
+    
+}
+.experience p{
+    color:#777474;
+    font-size: 16px;
+}
+
+
+.experience_list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+    text-align: start;
+}
+.experience_list li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color:#777474 ;
+    line-height: 35px;
+    
+}
+.about_button{
+    margin: 20px 0px;
+}
+.fa-dot-circle{
+    color: #40515E;
+    margin: 0px 10px;
+}
+.tvc{
+    width: 100%;
+}
+.tvc h1{
+    display: flex;
+    justify-content: center;
+   
+}
+.service_heading{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 700;
+}
+.service_para{
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   line-height: 28px;
+}
+.SECTION_SER{
+    height: 100%;
+    margin: 30px 0px !important;
+    
+}
+#images_ser{
+    width: 100%;
+    height: 100%;
+}
+#images_ser2{
+   width: 100%;
+   height: 100%;
+  
+}
+#images_ser3{
+  width: 100%;
+   height: 100%;
+   
+}
+
+
+#ssss{
+    margin: 20px 0px;
+}
+
+.main{
+    
+    
+    width: 100%;
+    height: 100%;
+    margin: 40px 0px;
+    
+    
+}
+
+.img_set{
+    width: 100%;
+    height: 100%;
+}
+.second_half{
+   height: 100%;
+    width: 50%;
+    background-color: #1DA1F2;
+}
+
+.contact_background_image{
+    background-image: url(img/image6.a3eda132.jpg);
+    background-size: 100% 100% !important;
+    position: relative !important;
+  background-position: center !important;
+  width: 100% !important;
+  background-attachment: fixed !important;
+  height: 500px !important;
+  background-repeat: no-repeat !important;
+  padding: 50px 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  color: #fff !important;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  z-index: -1 !important;
+}
+
+.contact_background_image h1 {
+    font-weight: 800 !important;
+    width: 740px !important;
+    font-size: 40px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+  }
+
+  .contact_background_image p {
+    font-size: 16px !important;
+    width: 570px !important;
+    margin-top: 8px !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .contact_background_image::after {
+    content: "" !important;
+    position: absolute !important;
+    background-color: #000 !important;
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0.3!important;
+    z-index: -1 !important;
+  }
+  
+.contact_img{
+    height: 100vh;
+    background-image: url(img/contact.77c547d6.jpeg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+    
+    position: relative;
+    z-index: -1;
+}
+.contact_img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(64, 81, 94, 0.7);
+  }
+.text_center{
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+.text_center h1{
+    font-size: 41px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.text_center p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+.checks_div{
+    display: flex !important;
+ align-items: flex-start !important;
+ flex-direction: column;
+margin: 20px 0px;
+ line-height: none !important;
+}
+.check_marks{
+display: flex;
+line-height: none !important;
+}
+.fontAwe{
+    font-size: 17px;
+    padding: 0px 10px;
+    color: #fff;
+}
+.btn-light{
+    margin-top: 50px;
+    width: 170px;
+    padding: 15px 0px;
+    border-radius: 0px !important   ;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+ 
+/* .contact_form{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 50px 40px 0 40px !important;
+  height: 100%;
+  
+} */
+/* #details{
+    padding: "15px 20px";
+    font-Size: "17px";
+    outline: "none";
+    width: "100%";
+}
+
+.col_form{
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0 !important;
+
+}
+.contact_form_text{
+    height: 100vh;
+}
+
+  
+  .col_form label{
+      font-size: 17px;
+  }
+
+  .col_form input,
+.budget {
+  padding: 15px 20px !important;
+  font-size: 17px !important;
+  width: 100% !important;
+  outline: none !important;
+} */ 
+
+.second_half{
+    height: 100vh;
+}
+.img_set{
+    height: 100%;
+    width: 100%;
+}
+.testimonial_image{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+/* .testimonial_col{
+    height: 100vh;
+    width: 50%;
+} */
+.testimonial_section{
+    height: 100%;
+    width: 100%;
+}
+.testimonial_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: #091E2A;
+    
+}
+.testimonial_center h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 39px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    padding: 10px 10px;
+    text-align: center;
+    
+
+}
+.testimonial_center p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    line-height: 28px;
+    font-size: 18px;
+    font-style: italic;
+    padding: 20px 20px ;
+    text-align: center;
+    width: 80%;
+    font-weight: 400;
+    
+}
+.fa-quote-right{
+    font-size: 50px ;
+    color: #00B53A;
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 45px;
+}
+.ceo{
+    width: 120px;
+    border-radius: 200px ;
+    border: 10px solid #fff;
+}
+.name_heading{
+    font-style: normal;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+.contact_form{
+    
+    position: relative;
+    bottom: 80px;
+   
+}
+
+.center_contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap !important;
+    
+}
+
+.form_col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .form_col label {
+    font-size: 17px;
+  }
+  
+  .form_col input,
+  .budget {
+    padding: 15px 10px !important;
+    font-size: 17px;
+    width: 100%;
+
+    
+  }
+  
+  .conatct_form_col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 40px 0 40px !important;
+    flex-wrap: wrap;
+    background-color: #fff;
+   
+  }
+  
+.footer_section{
+    background-color: #000;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.footer_para{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color:  rgb(161, 161, 161);
+    padding: 30px 0px;
+}
+.footer_check_mark{
+    display: flex;
+   
+    color: #fff;
+}
+.footer_check_mark p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 17px;
+}
+.fa-map-marker-alt{
+    padding: 10px 10px;
+    font-size: 21px;
+    color: #B27B2E;
+  
+}
+.footer_check_mark a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 17px;
+  
+
+}
+.align{
+    display: flex;
+    flex-direction: column;
+}
+.mera_mobile{
+    font-size: 21px;
+    padding: 0px 10px;
+    color: #B27B2E;
+}
+.mera_lefafa{
+    font-size: 21px;
+    padding: 0px 10px;
+    color: #B27B2E;
+}
+
+.footer_check_mark a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    line-height: 24px;
+    outline: none;
+    text-decoration: none;
+    font-size: 17px;
+}
+.footer_h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 234, 234);
+    font-size: 33px;
+    display: flex;
+ 
+    align-items: center;
+    height: 200px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.fa-angle-right{
+    font-size: 21px;
+    padding: 0px 10px;
+}
+
+.footer_para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    
+    color: rgb(161, 161, 161);
+}
+
+.abd_face{
+    color: #3B5998;
+    font-size: 38px;
+    
+}
+.abd_twitter{
+    font-size: 38px;
+    color: #27AAF4;
+}
+.abd_linkdin{
+    font-size: 38px;
+    color: #0A66C2;
+}
+.abd_border{
+    border-bottom: 1px solid gray;
+    padding: 40px 0px;
+}
+
+
+.copy_right{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cp_para{
+    color: #B27B2E;
+    font-size: 24px;
+    padding: 0px 30px;
+    font-weight:600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cp_para1{
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+
+}
+
+                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           /* Home Page Media Querry */
+
+
+ @media screen and (max-width : 1007px){
+     .footer_h1 a{
+        margin-bottom: 60px;
+     }
+     .footer_h1{
+         height: 10px;
+         margin: 30px 0px;
+     }
+ }
+ @media screen and (max-width : 340px){
+     .footersLogo{
+         width: 190px;
+     }
+ }
+ @media screen and (max-width : 991px){
+     header{
+         padding: 0px 0px 0px 10px !important;
+     }
+     .headings h1{
+         width: 100%;
+         
+     }
+     .headings h4{
+         width: 100%;
+     }
+     .headings p{
+         width: 100%;
+     }
+ }
+
+ @media  screen and (max-width: 590px) {
+    
+      .headings p{
+          width: 400px;
+      }
+      .headings h1{
+          font-size: 60px;
+      }
+      .background-img{
+          background-position: center !important;
+          width: 500px;
+      }
+   
+    }
+    @media screen and (max-width: 310px){
+        .text_center h1{
+            font-size: 18px;
+        }
+    }
+
+@media screen and (max-width: 427px){
+    .headings h1{
+        font-size: 45px;
+        width: 100%;
+    }
+    .headings p{
+        font-size: 13px;
+    }
+    .headings h4{
+        font-size: 22px;
+    }
+    .headings button{
+      font-size: 17px;
+      width: 140px;
+      height: 62px;
+      font-weight: 700;
+     
+    
+    }
+    .btn-light{
+        width: 140px;
+        margin-bottom: 20px 0px;
+    }
+    .text_center h1{
+        font-size: 27px;
+        width: 100%;
+    }
+}
+@media screen and (max-width : 360px){
+    .logo{
+        width: 169px !important;
+    }
+    .headings h1{
+        font-size: 34px;
+    }
+    .headings p{
+        font-size: 13px;
+        width: 100%;
+    }
+    .btn-light{
+        width: 120px;
+        margin-bottom: 20px 0px;
+    }
+    
+}
+@media screen and (max-width:350px){
+    .navbar-toggler{
+        
+        margin:   auto  !important;
+        padding: 6px 6px !important;
+        
+     
+        
+    }
+      .logo{
+        width: 169px !important;
+    }
+    .contact_background_image h1{
+        font-size: 22px !important;
+    }
+}
+@media screen and (max-width:681px){
+    .contact_background_image h1{
+        font-size: 33px !important;
+        
+    }
+    .contact_background_image{
+      width: 100vh;
+        
+    }
+    .contact_background_image p{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:702px){
+    .contact_background_image h1 {
+        font-size: 30px !important;
+        width: 100% !important;
+      }
+      .contact_background_image p {
+        width: 100% !important;
+      }
+}

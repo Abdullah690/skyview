@@ -1,0 +1,339 @@
+
+.contact_page_image{
+    background-image: url(img/laptop.jpg);
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: 100% 100%;
+    /* background-size: cover; */
+    position: relative;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.contact_page_image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contact_page_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color: #fff;
+    
+}
+.contact_us{
+    margin-bottom: 40px;
+}
+
+.contact_page_content h1{
+    font-size: 65px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+
+
+.contact_form{
+    
+    position: relative;
+    bottom: 80px;
+   
+}
+
+.center_contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap !important;
+    
+}
+
+.form_col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .form_col label {
+    font-size: 17px;
+  }
+  
+  .form_col input,
+  .budget {
+    padding: 15px 10px !important;
+    font-size: 17px;
+    width: 100%;
+
+    
+  }
+  
+  .conatct_form_col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 40px 0 40px !important;
+    flex-wrap: wrap;
+    background-color: #fff;
+   
+  }
+  .touch_form{
+      display: flex;
+      align-items:center ;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100vh;
+  }
+
+  .touch_form h4{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 700;
+      line-height: 24px;
+      font-size: 17px;
+      color:  rgb(33, 37, 41);
+      
+  }
+  .touch_form h1{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 60px;
+      font-weight: 800;
+      line-height: 48px;
+      color: #00B53A;
+      margin-bottom: 40px;
+  }
+  .touch_form p{
+      font-family: sans-serif;
+      font-size: 16px ;
+      font-weight: 400;
+      /* line-height: 30px; */
+      color: rgb(192, 192, 192);
+      
+
+
+  }
+  .footer_check_mark{
+
+    display: flex;
+
+
+  }
+  .Email_para{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 17px;
+    
+      
+      color: rgb(128, 128, 128);
+  }
+  ._para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+  
+    
+    color: rgb(128, 128, 128);
+}
+  .head_no{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 17px;
+    
+      
+      color: rgb(128, 128, 128);
+  }
+  .location{
+      font-size: 26px;
+      color: #00B53A;
+      padding: 0px 10px;
+  }
+  .lefafa{
+    font-size: 26px;
+    color: #00B53A;
+    padding: 0px 10px;
+  }
+  .mera_phone{
+    font-size: 26px;
+    color: #00B53A;
+    padding: 0px 10px;
+  }
+
+  .align{
+      display: flex;
+      flex-direction: column;
+  }
+  .btn-primary{
+      margin-top: 30px;
+      padding: 13px 12px !important;
+      border-radius: 30px !important;
+      width: 150px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 20px;
+      color: #fff !important;
+      background-color: #00B53A !important;
+  }
+  .btn-dark{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 19px;
+      font-weight: 600;
+  }
+
+
+
+               /* foooter */
+
+
+   
+               
+               
+    
+.footer_section{
+    background-color: #000;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.footer_para{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color:  rgb(161, 161, 161);
+    padding: 30px 0px;
+}
+.footer_check_mark{
+    display: flex;
+   
+    color: #fff;
+}
+.footer_check_mark p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 17px;
+}
+.location{
+    padding: 10px 10px;
+    font-size: 21px;
+    color: #00B53A;
+  
+}
+.footer_check_mark a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 17px;
+  
+
+}
+.align{
+    display: flex;
+    flex-direction: column;
+}
+.mera_mobile{
+    font-size: 21px;
+    padding: 0px 10px;
+    color: #B27B2E;
+}
+.mera_lefafa{
+    font-size: 21px;
+    padding: 0px 10px;
+    color: #B27B2E;
+}
+
+.footer_check_mark a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    line-height: 24px;
+    outline: none;
+    text-decoration: none;
+    font-size: 17px;
+}
+.footer_h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 234, 234);
+    font-size: 33px;
+    display: flex;
+ 
+    align-items: center;
+    height: 200px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.fa-angle-right{
+    font-size: 21px;
+    padding: 0px 10px;
+}
+
+.footer_para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    
+    color: rgb(161, 161, 161);
+}
+
+.abd_face{
+    color: #3B5998;
+    font-size: 38px;
+    
+}
+.abd_twitter{
+    font-size: 38px;
+    color: #27AAF4;
+}
+.abd_linkdin{
+    font-size: 38px;
+    color: #0A66C2;
+}
+.abd_border{
+    border-bottom: 1px solid gray;
+    padding: 40px 0px;
+}
+
+
+.copy_right{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cp_para{
+    color: #B27B2E;
+    font-size: 24px;
+    padding: 0px 30px;
+    font-weight:600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cp_para1{
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+
+}
+
+                       
+
+
+
+
+
+
+
+
+
+
